@@ -1,5 +1,6 @@
 # Site Build Settings
-
+baseurl: "/Pancho-and-Woody"
+url: "https://cwood003.github.io"
 # Jekyll-paginate-v2 configuration
 #  pagination:
 #   enabled: true
