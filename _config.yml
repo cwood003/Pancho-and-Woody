@@ -11,6 +11,9 @@ url: "https://cwood003.github.io"
 #   sort_field: 'date'
 #   sort_reverse: true
 
+logo: "eagle.png"
+# splash image
+splashimage: "pine-tree-branches-green.jpg"
 # jekyll-paginate configuration
 paginate:            5
 
