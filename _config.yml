@@ -11,9 +11,12 @@ url: "https://cwood003.github.io"
 #   sort_field: 'date'
 #   sort_reverse: true
 
+# splash page variables ----------------------------
 logo: "eagle.png"
 # splash image
 splashimage: "pine-tree-branches-green.jpg"
+splash-text-color: "#F2F2F2" # bone white
+# --------------------------------------------------
 # jekyll-paginate configuration
 paginate:            5
 

@@ -32,6 +32,7 @@ html{
 */
 
 body {
+  --splash-text-color: {{site.splash-text-color}};
   background-color: #383838;
   font-family: "PT Serif", Georgia, "Times New Roman", serif;
   font-size: 18px;
@@ -118,23 +119,26 @@ hr {
   Splash
 */
 
+
 .splash {
   text-align: center;
-  color: #ccc;
+  /* technically going against modualarity ... fix later */
   background-image: url("{{site.baseurl}}/assets/img/{{site.splashimage}}");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  font-family: "vigrand";
 }
 
 .splash h1{
   text-align: center;
-  color: rgb(206, 206, 206);
+  color: var(--splash-text-color);
   margin-top: -.1%;
-  padding: .5rem;
-  font-family: "vigrand";
+  margin-bottom: -.1%;
+  padding: 1rem;
   font-size: 4rem;
   text-shadow: 2px 2px 2px black;
+  font-family: "vigrand";
 }
 
 .splash img{
@@ -286,26 +290,28 @@ hr {
 */
 
 .menu {
-  padding-top: 0.5rem;
   display: block;
 }
 
 .menu-content {
-  float: left;
+  padding-top: .5rem;
+  float: center;
 }
 
 .menu-content a {
-  color: #999;
+  color: var(--splash-text-color);
   font-size: 1rem;
   padding-right: 10px;
+  text-decoration: none;
 }
 
 .social-icons {
-  float: right;
+  padding-top: .25rem;
+  float: center;
 }
 
 .social-icons a {
-  color: #999;
+  color: var(--splash-text-color);
   font-size: 1rem;
 }
 
