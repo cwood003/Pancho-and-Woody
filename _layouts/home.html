@@ -2,7 +2,6 @@
 layout: default
 title: Home
 ---
-
 <div class="splash">
   <div>
     <img src="{{site.baseurl}}/assets/img/{{site.logo}}">
@@ -16,15 +15,14 @@ title: Home
   </nav>
 </div>
 
-
 {% for post in paginator.posts %}
-<div class="posts">
+<div class="posts" style="background-image: url({{site.baseurl}}/assets/img/{{post.image}});">
   <h1>
     <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
   </h1>
   {% if post.image %}
   <div class="thumbnail-container">
-    <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.baseurl}}/assets/img/{{ post.image }}"></a>
+    <!-- <a href="{{site.baseurl}}{{ post.url }}"><img src="{{site.baseurl}}/assets/img/{{ post.image }}"></a> -->
   </div>
   {% endif %}
   <p>

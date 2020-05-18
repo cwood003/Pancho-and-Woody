@@ -128,6 +128,13 @@ hr {
   background-size: cover;
   height: 100%;
   font-family: "vigrand";
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  display: block;
+  overflow: hidden;
 }
 
 .splash h1{
@@ -196,14 +203,26 @@ hr {
 */
 
 .post-container {
+  margin: 0;
+  padding: 0;
   height: 100%;
-  margin-bottom: 4rem;
+  /* margin-bottom: 4rem; */
+  display: inline-block;
 }
 
 .posts {
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
   padding: 0px;
   list-style: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: block;
+  margin: 0;
+  overflow: hidden;
 }
 
 .post-date {
